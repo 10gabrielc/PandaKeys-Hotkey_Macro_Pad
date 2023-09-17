@@ -17,7 +17,7 @@ void Hotkey::SetAllSettings(String newName, uint8_t newType, unsigned int newDel
   SetKeycode(newKeycode);
   SetLocation(newRow, newCol);
   SetHotkeyType(newType);
-  SetHotkeyDelay(5);
+  SetHotkeyDelay(newDelay);
   HotkeyOff();
 }
 
